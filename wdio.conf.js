@@ -55,7 +55,7 @@ exports.config = {
     capabilities: [{
         platformName : 'Android',
         'appium:deviceName': 'Pixel 5i',
-        'appium:app': join(process.cwd(), 'Kitalulus.apk'),
+        'appium:app': join(process.cwd(), 'ApiDemos-debug.apk'),
     }],
     //
     // ===================
